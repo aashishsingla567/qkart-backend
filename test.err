@@ -1,0 +1,18 @@
+
+> qkart_me_backend@1.4.1 test /home/crio-user/workspace/aashishcoc123-ME_QKART_BACKEND
+> jest -i --watchAll
+
+/home/crio-user/11121e40236f7eb6294539dc684bcb8bda074984e469d530058e44bbe524d9fb/node_modules/.pnpm/expect@22.4.3/node_modules/expect/build/index.js:121
+    const err = new JestAssertionError(utils.matcherHint(matcherStatement, 'received', '') + '\n\n' + `Expected ${utils.RECEIVED_COLOR('received')} Promise to reject, ` + 'instead it resolved to value\n' + `  ${utils.printReceived(result)}`);
+                ^
+
+JestAssertionError: expect(received).rejects.toThrow()
+
+Expected received Promise to reject, instead it resolved to value
+  undefined
+    at /home/crio-user/11121e40236f7eb6294539dc684bcb8bda074984e469d530058e44bbe524d9fb/node_modules/.pnpm/expect@22.4.3/node_modules/expect/build/index.js:121:17
+ ELIFECYCLE  Test failed. See above for more details.
+[INFO] Checking for optimal 'npm install'.
+[INFO] Continuing with execution of the actual command.
+[WARN] pnpm command exited with non-zero exit code.
+[WARN] Since a test run command is detected, won't fall back to using npm.
